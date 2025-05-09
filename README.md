@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/lorenzoferriolo/tagSelectJS/blob/main/logo.png?raw=true" alt="tagSelectJS Logo" width="150"/>
+</p>
+
 # tagSelectJS
 
 A lightweight and customizable JavaScript component that transforms any `<select multiple>` into a tag-style input with full keyboard and mouse support.
@@ -25,8 +29,10 @@ Download the `tagSelectJS.js` and `tagSelectJS.css` files and include them in yo
 
 ```html
 <select multiple class="select2">
-  <option value="1">Tag One</option>
-  <option value="2">Tag Two</option>
+  <option value="1">JavaScript</option>
+  <option value="2">HTML</option>
+  <option value="3">CSS</option>
+  <option value="4">Node.js</option>
 </select>
 
 <script>
