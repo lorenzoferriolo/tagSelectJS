@@ -1,0 +1,27 @@
+# Ignore node modules (if using Node.js tools)
+node_modules/
+
+# Ignore logs
+logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+
+# Dependency lockfiles (optional)
+package-lock.json
+yarn.lock
