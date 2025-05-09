@@ -28,7 +28,7 @@ Download the `tagSelectJS.js` and `tagSelectJS.css` files and include them in yo
 ## Usage
 
 ```html
-<select multiple class="select2">
+<select multiple class="tagSelectJS" name="tag[]">
   <option value="1">JavaScript</option>
   <option value="2">HTML</option>
   <option value="3">CSS</option>
@@ -36,7 +36,7 @@ Download the `tagSelectJS.js` and `tagSelectJS.css` files and include them in yo
 </select>
 
 <script>
-  createTagSelect(".select2", {
+  createTagSelect(".tagSelectJS", {
     keepOpen: true,
     tagClassExtra: "my-custom-tag",
     wrapperClassExtra: "my-wrapper",
